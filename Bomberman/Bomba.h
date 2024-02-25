@@ -1,14 +1,25 @@
 #pragma once
 #include <iostream>
-
 using namespace std;
-class obstacle_indestructive
+
+class Bomba
 {
 private:
+	int bombleft;
+	int bombrange;
 	int positionX;
 	int positionY;
-	int design;
+	int timer;
 public:
+	void burts();
+	void destroy_blocks();
+	void kill();
 	void blocking();
+	
+		
+		
+
+
 };
+
 

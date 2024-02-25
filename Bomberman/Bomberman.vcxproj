@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Atack.h" />
+    <ClInclude Include="Bomba.h" />
     <ClInclude Include="character.h" />
     <ClInclude Include="Enemy.h" />
     <ClInclude Include="Obstacle_destructive.h" />
@@ -137,7 +137,7 @@
     <ClInclude Include="Time.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Atack.cpp" />
+    <ClCompile Include="Bomba.cpp" />
     <ClCompile Include="character.cpp" />
     <ClCompile Include="Enemy.cpp" />
     <ClCompile Include="Obstacle_destructive.cpp" />
